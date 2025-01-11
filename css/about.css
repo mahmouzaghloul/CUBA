@@ -14,7 +14,7 @@ nav
 }
 .navbar-brand
 {
-    font-family:'fontName','fallback';
+    font-family:'serif','san-serif';
 }
 .hero
 {
@@ -43,7 +43,7 @@ transition: all 12s ease-in-out;
     width: 100vw;
     height: 100vh;
     background-position:center;
-    background-size: cover;
+    object-fit: cover;
     background-clip:border-box;
     background-repeat: no-repeat;
 
